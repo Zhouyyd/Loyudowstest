@@ -10,7 +10,7 @@
 .center-warp .center{ 
       margin-left: 200px; 
       margin-right: 150px; 
-      background: yellow; 
+      background-color: yellow; 
 }
 .left{
       width: 200px; 
@@ -18,7 +18,7 @@
       background-color: red; 
 } 
 .right{
-	width:150px;
-	margin-left: -150px;
-      background: green; 
+      width:150px;
+      margin-left: -150px;
+      background-color: green; 
 }
