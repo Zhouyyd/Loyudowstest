@@ -7,7 +7,7 @@
 .center-warp{ 
       width: 100%; 
 }
-.center-warp.center{ 
+.center-warp .center{ 
       margin-left: 200px; 
       margin-right: 150px; 
       background: yellow; 
