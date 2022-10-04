@@ -5,17 +5,35 @@
 <title>Zhouyyd</title>
 <style>
 </style>
+<script>
+function startTime(){
+	var today=new Date();
+	var h=today.getHours();
+	var m=today.getMinutes();
+	var s=today.getSeconds();
+	m=checkTime(m);
+	s=checkTime(s);
+	document.getElementById('time').innerHTML=h+":"+m+":"+s;
+	t=setTimeout(function(){startTime()},500);
+}
+function checkTime(i){
+	if (i<10){
+		i="0" + i;
+	}
+	return i;
+}
+</script>
 <link rel="stylesheet" type="text/css" href="index.css">
 <script src="index.js"></script>
 </head>
-<body>
+<body onload="startTime()">
   <div class="container">
 		<h1>开始</h1>
 		
 		<img src="https://graph.facebook.com/freakout.jq/picture?type=small" width="50px" class="prof"/>
 		<div class="right">
-			<h2>Martabak</h2>
-			<p>Gosong</p>
+			<h2>Zhouyyd</h2>
+			<p>你好:)</p>
 		</div>
 		<div class='spacer'>
 			<a href="javascript://" class='wide blue'>
@@ -32,22 +50,22 @@
 			</a>
 			<a href="javascript://" class='box lime'>
 				<i class="icon-heart"></i>
-				<h2>Favorite</h2>
+				<h2>aaaaa</h2>
 			</a>
 			<a href="javascript://" class='box bluefish'>
 				<i class="icon-twitter"></i>
-				<h2>推特</h2>
+				<h2>aaa</h2>
 			</a>
 			<a href="javascript://" class='box yellow'>
 				<i class="icon-map-marker"></i>
-				<h2>Places</h2>
+				<h2>aaaaa</h2>
 			</a>
 			<a href="javascript://" class='wide magenta gallery'>
-				<h2>Gallery</h2>
+				<h2>aaa</h2>
 			</a>
 			<a href="javascript://" class='box redgay'>
 				<i class="icon-globe"></i>
-				<h2>Browser</h2>
+				<h2>aaa</h2>
 			</a>
 			<a href="javascript://" class='box orange'>
 				<i class="icon-envelope-alt"></i>
@@ -55,35 +73,35 @@
 			</a>
 			<a href="javascript://" class='wide blue cal_e'>
 				<h1>25</h1><p>Monday</p>
-				<h2 class="top cal_i">Sena Birthday Party At Jack House on 07:00 PM</h2>
+				<h2 class="top cal_i" id="time"></h2>
 				<i class="icon-calendar"></i>
 			</a>
 			<a href="javascript://" class='box lime'>
 				<i class="icon-cloud"></i>
-				<h2>SkyDrive</h2>
+				<h2>aaa</h2>
 			</a>
 		</div>
 
 		<div class='spacer spacer3x'>
 			<a href="javascript://" class='box blue'>
 				<i class="icon-facebook"></i>
-				<h2>脸鼠</h2>
+				<h2>aaaa</h2>
 			</a>
 			<a href="javascript://" class='box bluefish'>
 				<i class="icon-facetime-video"></i>
-				<h2>FaceTime</h2>
+				<h2>aaa</h2>
 			</a>
 			<a href="javascript://" class='box redgay'>
 				<i class="icon-tasks"></i>
-				<h2>Task</h2>
+				<h2>aaa</h2>
 			</a>
 			<a href="javascript://" class='box magenta'>
 				<i class="icon-list-alt"></i>
-				<h2>Windows Explorer</h2>
+				<h2>aaaaa</h2>
 			</a>
 			<a href="javascript://" class='wide yellow'>
 				<i class="icon-play"></i>
-				<h2>Media</h2>
+				<h2>aaaaa</h2>
 			</a>
 		</div>
 
