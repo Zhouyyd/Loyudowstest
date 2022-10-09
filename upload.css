@@ -1,0 +1,38 @@
+body {
+  margin: 0 auto;
+  background: #EEE;
+  text-align: center;
+  font-family: calibri light, sans-serif;
+  font-size: 40px;
+  color: #00ADEF;
+}
+
+#perspective {
+  perspective: 500px;
+  margin-left: -50px;
+}
+
+#win-logo {
+  background: transparent;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 300px;
+  height: 230px;
+  line-height: 0;
+  transform: rotateY(-30deg);
+}
+
+#left-top, #right-top, #left-bottom, #right-bottom {
+  background: #00ADEF;
+  width: 140px;
+  height: 110px;
+  display: inline-block;
+}
+
+#left-top, #right-top {
+  margin-bottom: 5px;
+}
+
+#left-top, #left-bottom {
+  margin-right: 5px;
+}
