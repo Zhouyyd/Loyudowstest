@@ -36,10 +36,12 @@ body {
 #left-top, #left-bottom {
   margin-right: 5px;
 }
+
+
 .loader-align {
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  top: 50%; left: 50%;
+  transform:translateX(-50%)translateY(-50%);
 }
 
 .loader {
@@ -49,7 +51,7 @@ body {
 
   div.a {
     position: absolute;
-    left: 7%; top: 9%;
+    
     width: 15%; height: 15%; /* Caution, the container must always have a square ratio */
     border-radius: 50%;
     
