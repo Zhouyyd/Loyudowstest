@@ -18,11 +18,12 @@
   </div>
 </div>
 <h1>正在为您准备 Loyudows 1.0</h1>
-  <script>
-    function jumpurl(){
-      location='./desktop.html';
+<script language=javascript>
+    document.onkeydown = chang_page;
+    function chang_page() {
+        if (event.keyCode == 68) location = 'desktop.html';
+        if (event.keyCode == 77) location = 'meiqiguan.html'
     }
-    setTimeout('jumpurl()',10000);
-  </script>
+</script>
 </body>
 </html>
